@@ -169,4 +169,4 @@ for b in 1:B
     end
 end
 
-save("res/out_" * string(seed_num) * ".jld", "data", [res1,res2,res3,res4])
+save("/res/out_" * string(seed_num) * ".jld", "data", [res1,res2,res3,res4])
